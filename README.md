@@ -1,6 +1,6 @@
 # 🚗 Rusty Bargain - Predicción del Valor de Mercado de Autos Usados
 
-Este proyecto busca desarrollar un modelo de *Machine Learning* que prediga con precisión el **valor de mercado de autos usados**, con base en las características del vehículo. La iniciativa forma parte de un caso empresarial ficticio de **Rusty Bargain**, una empresa que compra y revende autos usados.
+Este proyecto busca desarrollar un modelo de *Machine Learning* que prediga con precisión el **valor de mercado de autos usados**, con base en las características del vehículo. Forma parte de un caso empresarial ficticio de **Rusty Bargain**, una empresa que compra y revende autos usados.
 
 ## 📍 Contexto
 
