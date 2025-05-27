@@ -1,10 +1,10 @@
 # 🚗 Rusty Bargain - Predicción del Valor de Mercado de Autos Usados
 
-Este proyecto busca desarrollar un modelo de *Machine Learning* que prediga con precisión el **valor de mercado de autos usados**, con base en las características del vehículo. La iniciativa forma parte de un caso empresarial ficticio de **Rusty Bargain**, una empresa que compra y revende autos usados a precios competitivos.
+Este proyecto busca desarrollar un modelo de *Machine Learning* que prediga con precisión el **valor de mercado de autos usados**, con base en las características del vehículo. La iniciativa forma parte de un caso empresarial ficticio de **Rusty Bargain**, una empresa que compra y revende autos usados.
 
 ## 📍 Contexto
 
-Rusty Bargain desea automatizar y mejorar su proceso de fijación de precios al adquirir vehículos, para así optimizar su margen de ganancia. Para lograrlo, se nos ha encomendado construir un modelo predictivo que considere:
+Rusty Bargain desea automatizar y mejorar su proceso de fijación de precios, para así optimizar su margen de ganancia. Para lograrlo, debemos centrarnos en tres aspectos clave en el desarrollo del modelo:
 
 - **Calidad de la predicción**
 - **Velocidad de predicción**
@@ -12,7 +12,7 @@ Rusty Bargain desea automatizar y mejorar su proceso de fijación de precios al 
 
 ## 🎯 Objetivo
 
-Construir un modelo de regresión que estime el **precio de reventa** de un automóvil usado con base en sus características técnicas e históricas, manteniendo un equilibrio entre precisión y eficiencia computacional.
+Implementar un modelo de regresión que estime el **el valor de mercadoa** de un automóvil usado con base en sus características técnicas e históricas, manteniendo un equilibrio entre precisión y eficiencia computacional.
 
 ## 🧾 Dataset
 
@@ -38,29 +38,19 @@ El conjunto de datos incluye variables como:
 
 ## 📊 Etapas del proyecto
 
-1. **Exploración y limpieza de datos**  
+1. **Preprocesamiento de datos**  
    - Eliminación de valores atípicos y nulos
    - Conversión de tipos de datos
    - Codificación de variables categóricas
 
-2. **Análisis exploratorio**  
-   - Correlaciones entre características y el precio
-   - Visualización de distribuciones y relaciones clave
-
-3. **Entrenamiento de modelos**  
+2. **Entrenamiento y evaluación de modelos**  
    - Regresión lineal
    - Árboles de decisión
-   - LightGBM, CatBoost, XGBoost
-
-4. **Evaluación del modelo**  
+   - LightGBM, CatBoost
    - Métrica principal: RMSE
    - Comparación de velocidad y precisión entre modelos
 
-5. **Selección del modelo final**  
-   - Basado en rendimiento en el conjunto de prueba y tiempo de inferencia
+4. **Conclusiones**  
+ 
 
-## ✅ Resultados
 
-- El modelo seleccionado alcanzó un **RMSE competitivo** en el conjunto de prueba.
-- Se logró una **buena velocidad de predicción** y un **tiempo de entrenamiento razonable**, alineado con los requerimientos del negocio.
-- Las variables más influyentes en el precio fueron: año del coche, kilometraje, potencia del motor y marca.
